@@ -1,0 +1,146 @@
+@import url('http://fonts.cdnfonts.com/css/w95fa');
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+a p {
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #b1b1b1; 
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(101, 142, 231); 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(13, 4, 137); 
+  }
+
+.window-outer {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0,85,229);
+    position: absolute;
+    top: 3;
+}
+iframe {
+    height: 750px;
+    width: 500px;
+}
+
+.window-header {
+    height: 68px;
+    width: 98%;
+    margin: 0 auto; 
+    background-color: blue;
+}
+
+.window-header-back {
+    height: 80px;
+    width: 98%;
+    margin: 0 auto; 
+    background-color: darkblue;
+   
+}
+
+.window-body
+{
+    height: calc(100vh - 160px);
+    width: 98%;
+    background-color: rgb(238,242,246);
+    margin: 58px auto 0 auto;
+    overflow-y: auto;
+}
+
+.window-body h1 
+{
+    text-align: center;
+}
+
+.window-body p 
+{
+    width: 70;
+    margin: 8px auto; 
+    text-align: center;
+    z-index: -1;
+}
+
+.window-header img:first-of-type, .window-header p {
+    float: left;
+}
+
+.window-header p {
+    margin: 15px 0;
+    color: white;
+    font-size: xx-large;
+}
+
+.window-header a {
+    float: right;
+}
+
+.window-header a img {
+    width: 60px;
+    margin: 5px 5px;
+}
+.dropdowns {
+    display: flex;
+    position: absolute;
+    margin: 12px 0 0 0px;
+    width: 98vw;
+    background-color: rgb(238,235,217);
+}
+
+.headerdropdown {
+    width: fit-content;
+    margin-right: 2px;
+}
+
+p {
+    font-family: "W95FA";
+  }
+
+
+  h1 {
+    font-family: "W95FA";
+  }
+
+  .wall {
+    background-image: url("../images/wall.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .wall a img {
+    width: 70px;
+    margin: 5px 5px;
+}
+ 
+
+.wall2 {
+    background-image: url("../images/trasg.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .wall2 a img {
+    width: 70px;
+    margin: 5px 5px;
+}
